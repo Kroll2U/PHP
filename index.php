@@ -25,11 +25,11 @@
     $y = $_POST["y"];
     $total = null;
     
-    // $total = abs($x); // absolutna czyli -4 to 4 i 4 to 4
-    // $total = round($x); //zaokrąglenie 
-    //$total = floor($x);     zaokraglanie w dół
-    //$total = ceil($x); //podnosi do gory
-    //$total = pow($x, $y);   //potęgowanie
+    $total = abs($x); // absolutna czyli -4 to 4 i 4 to 4
+    $total = round($x); //zaokrąglenie 
+    $total = floor($x);   //  zaokraglanie w dół
+    $total = ceil($x); //podnosi do gory
+    $total = pow($x, $y);   //potęgowanie
     $total = sqrt($x);
     echo $total;
 ?>
